@@ -1,77 +1,136 @@
-body {
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
-  text-align: center;
-  margin: 0px;
-}
+  body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0px;
+  }
 
-header {
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
-  position: fixed;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid seashell;
-  height: 69px;
-  background-color: black;
-}
+  header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    background-color: black;
+  }
 
-h2, h3, h4 {
-  margin: 0;
-  padding: 10px;
-}
+  h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+  }
 
-.logo {
-  margin-left: 10px;
-  height: 50px;
-  display: flex;
-}
+  footer {
+    text-align: left;
+    padding-left: 20px;
+  }
 
-nav {
-  text-align: right;
-  flex-grow: 1;
-  margin-right: 10px;
-}
+  .logo {
+    margin-left: 10px;
+    height: 50px;
+    display: flex;
+  }
 
-nav a {
-  text-decoration: underline;
-  color: seashell;
-  display: inline-block;
-  justify: space-around;
-  padding: 20px 10px;
-}
-.main {
-  padding-top: 69px;
-}
+  nav {
+    text-align: right;
+    flex-grow: 1;
+    margin-right: 10px;
+  }
 
-#mission {
-  background-image: url("/Users/margaretdenison/TeaCozy/resources/images/img-mission-background.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 700px;
-  display: flex;
-  padding-top: 70px;
-}
+  nav a {
+    text-decoration: underline;
+    color: seashell;
+    display: inline-block;
+    justify: space-around;
+    padding: 20px 10px;
+  }
+  .main {
+    padding-top: 69px;
+  }
 
-.title {
-  display: flex;
-  flex-directon: column;
-  justify-content: vertical;
-}
+  .div {
+    display: block;
+  }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+  #mission {
+    background-image: url("/Users/margaretdenison/TeaCozy/resources/images/img-mission-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    padding-top: 70px;
+  }
 
-#mission .content {
-  margin: auto;
-  width: 100%;
-  background-color: black;
-}
+  .title {
+    display: flex;
+    flex-directon: column;
+    justify-content: vertical;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #mission .content {
+    margin: auto;
+    width: 100%;
+    background-color: black;
+  }
+
+
+  .item {
+    padding: 5px;
+  }
+
+  .item img {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+    margin: 10px;
+  }
+
+  .item span {
+      display: block;
+      padding: 5px;
+      font-weight: bold;
+      text-align: center;
+
+  }
+
+  #store {
+      height: 700px;
+      width: 1000px;
+      margin: auto;
+      padding-top: 70px;
+    }
+
+    #locations {
+      background-image: url("/Users/margaretdenison/TeaCozy/resources/images/img-locations-background.jpg");
+      height: 500px;
+      padding-top: 70px;
+      background-size: cover;
+    }
+
+  .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis:  300px;
+    background-color: black;
+    opacity: 1.0;
+    margin: 15px 40px;
+    padding: 10px;
+  }
+
+
+  .flex-container .locations {
+    padding-top: 5px;
+  }
